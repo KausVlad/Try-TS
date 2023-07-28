@@ -23,4 +23,10 @@ xFunc = (xx) => xx * 2;
 
 const names: string[] = ['John', 'Paul', 'George', 'Ringo'];
 const numbers: number[] = [1, 2, 3];
+const numbersX: Array<number> = [1, 2, 3];
 // const neverW = []; //! never type is not good
+
+const personTuple: [string, number, boolean] = ['John', 10, true];
+
+const nothing: undefined = undefined;
+const nothingX: null = null;
