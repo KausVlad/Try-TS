@@ -1,4 +1,11 @@
 "use strict";
+const animal = {
+    name: 'KausGold',
+    age: 30,
+    getName() {
+        return this.name;
+    },
+};
 class User {
     name;
     age;
