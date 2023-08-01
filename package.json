@@ -1,8 +1,19 @@
 {
+  "name": "try-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
+    "@types/node": "^20.4.5",
     "eslint": "^8.46.0",
     "typescript": "^5.1.6"
-  }
+  },
+  "scripts": {
+    "dev": "tsc && node build/node-TS/write-to-file.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
